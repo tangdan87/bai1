@@ -1,13 +1,12 @@
 <?php
 
-if(isset($_GET['name'])){
-	echo "name";
+// echo "123";
+if (isset($_GET['name'])) {
+	$name = $_GET['name'];
+	echo "your name is {$name}";
 }
 
-
 ?>
-
-
 
 <!DOCTYPE html>
 <html>
@@ -15,7 +14,7 @@ if(isset($_GET['name'])){
 	<title>hocWebBai1</title>
 </head>
 <body>
-	<p>chuong trinh test</p>
+	<p>chuong trinh test1</p>
 	<form action="index.php" method="get">
 		name: <input type="text" name="name"> <br>
 		<input type="submit">
