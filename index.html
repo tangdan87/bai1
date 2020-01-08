@@ -18,17 +18,32 @@
     	});
     </script> 
 
+    <script>
+		$(document).ready( function() {
+    	$("#test1").on("click", function() {
+    		
+    		//document.getElementById("content").innerHTML = "";
+    		//document.getElementById("nd1").style.color = "red";
+    	   // $("#nd1").style.color = "red";
+    	   $("#content").load('Views/header.html')
+    	    alert("123");
+    	});
+		});
+	</script>
+
    
     <link rel="stylesheet" href="Styles/Style.css">
 
 </head>
 <body>
 	
-	<div id="includedContent"></div>
+	
 	<div data-include="header" ></div>
 	<div data-include="menu" ></div>
-	<div data-include="contents" ></div>
+	<div data-include="contents" id="nd1" ></div>
 	<div data-include="footer" ></div>
+	<div id="includedContent">123</div>
+	<button id="test1">123</button>
 
 	<!-- <form action="index.php" method="get">
 		name: <input type="text" name="name"> <br>

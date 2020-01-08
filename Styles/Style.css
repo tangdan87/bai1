@@ -9,24 +9,37 @@
 	color: white;
 	font-size: 56px;
 }
+#includedContent{
+	color: red;
+	background-color: green;
+	height: 158px;
+}
 
 #content{
 	background-color: yellow;
 	/*width: 500px;*/
 	height: 580px;
 	width: 80%;
+	margin: 12px 0px 12px 0px;
 	float: right;
 
 	
 }
 #menu{
-	background-color: red;
+	background-color: green;
 	/*width: 500px;*/
 	float: left;
 	width: 15%;
 	margin: 12px 0px 12px 0px;
-	height: 145px;
-	
+
+	/*height: 345px;*/
+}
+
+#menu button{
+	background-color: white;
+	margin: 5px 5px 5px 5px;
+	width: 96%;
+	height: 50px;
 }
 
 #footer{
