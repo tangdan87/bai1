@@ -1,0 +1,44 @@
+
+
+
+#header{
+	background-color: green;
+	/*width: 500px;*/
+	height: 80px;
+	text-align: center;
+	color: white;
+	font-size: 56px;
+}
+
+#content{
+	background-color: yellow;
+	/*width: 500px;*/
+	height: 580px;
+	width: 80%;
+	float: right;
+
+	
+}
+#menu{
+	background-color: red;
+	/*width: 500px;*/
+	float: left;
+	width: 15%;
+	margin: 12px 0px 12px 0px;
+	height: 145px;
+	
+}
+
+#footer{
+	background-color: gray;
+	/*width: 500px;*/
+	height: 80px;
+	clear: both;
+}
+body{
+	width: 90%;
+
+	margin: 0 auto;
+	margin-top: 16px;
+	font-size: 16px;
+}

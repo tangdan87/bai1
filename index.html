@@ -1,0 +1,38 @@
+
+
+
+<html>
+<head>
+	<title>web1</title>
+	<script type="text/javascript" src="jquery.js"></script> 
+    <script> 
+	// <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+	 <script> 
+    	$(function(){
+      		// $("#includedContent").load("header.html"); 
+      		var includes = $('[data-include]');
+    		jQuery.each(includes, function(){
+     		 var file = 'Views/' + $(this).data('include') + '.html';
+     		 $(this).load(file);
+    });
+    	});
+    </script> 
+
+   
+    <link rel="stylesheet" href="Styles/Style.css">
+
+</head>
+<body>
+	
+	<div id="includedContent"></div>
+	<div data-include="header" ></div>
+	<div data-include="menu" ></div>
+	<div data-include="contents" ></div>
+	<div data-include="footer" ></div>
+
+	<!-- <form action="index.php" method="get">
+		name: <input type="text" name="name"> <br>
+		<input type="submit">
+	</form> -->
+</body>
+</html>
