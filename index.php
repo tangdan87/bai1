@@ -1,4 +1,4 @@
-<?php
+<!-- <?php
 
 // echo "123";
 if (isset($_GET['name'])) {
@@ -6,7 +6,7 @@ if (isset($_GET['name'])) {
 	echo "your name is {$name}";
 }
 
-?>
+?> -->
 
 <!DOCTYPE html>
 <html>
