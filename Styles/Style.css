@@ -3,12 +3,12 @@
 
 #header{
 	background-color: green;
-	width: 500px;
+	/*width: 500px;*/
 	height: 500px;
 }
 #footer{
 	background-color: gray;
-	width: 500px;
+	/*width: 500px;*/
 	height: 500px;
 }
 #includedContent{
